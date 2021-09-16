@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "./https://leraseagull.github.io/react-test-itrex.html/static/css/main.8ce7f075.chunk.css",
-    "main.js": "./https://leraseagull.github.io/react-test-itrex.html/static/js/main.cdad2149.chunk.js",
-    "main.js.map": "./https://leraseagull.github.io/react-test-itrex.html/static/js/main.cdad2149.chunk.js.map",
-    "runtime-main.js": "./https://leraseagull.github.io/react-test-itrex.html/static/js/runtime-main.2f835bf8.js",
-    "runtime-main.js.map": "./https://leraseagull.github.io/react-test-itrex.html/static/js/runtime-main.2f835bf8.js.map",
-    "static/js/2.02915de9.chunk.js": "./https://leraseagull.github.io/react-test-itrex.html/static/js/2.02915de9.chunk.js",
-    "static/js/2.02915de9.chunk.js.map": "./https://leraseagull.github.io/react-test-itrex.html/static/js/2.02915de9.chunk.js.map",
-    "static/js/3.75625267.chunk.js": "./https://leraseagull.github.io/react-test-itrex.html/static/js/3.75625267.chunk.js",
-    "static/js/3.75625267.chunk.js.map": "./https://leraseagull.github.io/react-test-itrex.html/static/js/3.75625267.chunk.js.map",
-    "index.html": "./https://leraseagull.github.io/react-test-itrex.html/index.html",
-    "static/css/main.8ce7f075.chunk.css.map": "./https://leraseagull.github.io/react-test-itrex.html/static/css/main.8ce7f075.chunk.css.map",
-    "static/js/2.02915de9.chunk.js.LICENSE.txt": "./https://leraseagull.github.io/react-test-itrex.html/static/js/2.02915de9.chunk.js.LICENSE.txt"
+    "main.css": "/react-test-itrex/static/css/main.8ce7f075.chunk.css",
+    "main.js": "/react-test-itrex/static/js/main.cdad2149.chunk.js",
+    "main.js.map": "/react-test-itrex/static/js/main.cdad2149.chunk.js.map",
+    "runtime-main.js": "/react-test-itrex/static/js/runtime-main.58428505.js",
+    "runtime-main.js.map": "/react-test-itrex/static/js/runtime-main.58428505.js.map",
+    "static/js/2.02915de9.chunk.js": "/react-test-itrex/static/js/2.02915de9.chunk.js",
+    "static/js/2.02915de9.chunk.js.map": "/react-test-itrex/static/js/2.02915de9.chunk.js.map",
+    "static/js/3.75625267.chunk.js": "/react-test-itrex/static/js/3.75625267.chunk.js",
+    "static/js/3.75625267.chunk.js.map": "/react-test-itrex/static/js/3.75625267.chunk.js.map",
+    "index.html": "/react-test-itrex/index.html",
+    "static/css/main.8ce7f075.chunk.css.map": "/react-test-itrex/static/css/main.8ce7f075.chunk.css.map",
+    "static/js/2.02915de9.chunk.js.LICENSE.txt": "/react-test-itrex/static/js/2.02915de9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f835bf8.js",
+    "static/js/runtime-main.58428505.js",
     "static/js/2.02915de9.chunk.js",
     "static/css/main.8ce7f075.chunk.css",
     "static/js/main.cdad2149.chunk.js"
