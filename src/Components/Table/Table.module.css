@@ -1,0 +1,119 @@
+.Table {
+    display: grid;
+    grid-template-columns: 3fr 5fr 5fr 6fr 5fr 3fr;
+    font-size: 16px;
+}
+
+.TableActive {
+    background-color: #2366aa;
+}
+
+/* 
+.TableContent {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+}
+
+td {
+    text-align: left;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    vertical-align: top;
+  }
+  
+   tr:nth-child(even){
+    background: #f3f3f3;
+  }
+   tr td:first-child {
+    border-radius: 8px 0 0 8px;
+  }
+   td:last-child {
+    border-radius: 0 8px 8px 0;
+  }
+ */
+.ContentTable {
+  width: 70%;
+}
+
+.Table tr {
+  padding: 3px;
+  margin: 3px;
+}
+
+.Table div {
+  margin: 1px;
+  padding:5px 10px 5px 10px;
+  border:solid 1px #565b60;
+  min-width: 80px;
+  min-height: 20px;
+}
+
+.Table div:first-child {
+  border-radius: 8px 0 0 8px;
+}
+
+.Table div:last-child {
+  border-radius: 0 8px 8px 0;
+}
+
+.Table div p span:nth-child(even){
+  background: #f3f3f3;
+}
+
+.Table div p{
+  margin: 0;
+  cursor: pointer;
+  padding: 5px;
+  font-weight: bold;
+}
+.Table div p span {
+  text-align: right;
+  float: right;
+  font-weight: bold;
+}
+
+div .userId span {
+  text-align: right;
+  float: right;
+
+}
+/* 
+  thead th {
+      font-weight: bold;
+      border: none;
+      padding: 10px 30px;
+      background: #d8d8d8;
+      font-size: 14px;
+  }
+  th:first-child {
+      border-radius: 8px 0 0 8px;
+    }
+    th:last-child {
+      border-radius: 0 8px 8px 0;
+    }
+  td {
+      text-align: center;
+      border: none;
+      padding: 10px 15px;
+      font-size: 14px;
+      vertical-align: top;
+    }
+    
+    tr:nth-child(even){
+      background: #f3f3f3;
+    }
+    tr td:first-child {
+      border-radius: 8px 0 0 8px;
+    }
+    td:last-child {
+      border-radius: 0 8px 8px 0;
+    }
+  tbody {
+      
+  }
+ */
+.sort {
+    padding: 5px;
+}

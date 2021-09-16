@@ -1,0 +1,29 @@
+.Pagination {
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 20px;
+}
+.PaginationActive {
+    font-weight: bold;
+    background-color: #a6a8af;
+}
+.Pagination div {
+    display: inline-block;
+    padding: 2px 5px;
+    border: solid 1px rgb(59, 58, 58);
+    margin: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+.Pagination :hover {
+    background-color: #a6a8af;
+}
+.prevBtn {
+    border-radius: 7px 0px 0px 7px;
+    width: 80px;
+}
+
+.nextBtn {
+    border-radius: 0px 7px 7px 0px;
+    width: 80px;
+}

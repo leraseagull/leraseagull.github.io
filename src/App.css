@@ -2,37 +2,83 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main {
+  color: rgb(8, 8, 8);
+  display: flex;
+  padding: 30px 0 30px 0;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ProfileInfo{
+  background-color: #a6a8af;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 25px;
+  border-radius: 8px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+
 }
 
-.App-link {
-  color: #61dafb;
+.ProfileInfo p{
+  padding: 3px;
+  margin: 3px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Table {
+  width: 70%;
+    border: none;
+    margin-bottom: 20px;
+}
+.TableActive {
+  background-color: #565b60
+}
+
+.Table tr {
+  padding: 3px;
+  margin: 3px;
+}
+.Table div {
+  margin: 1px;
+  padding:5px 10px 5px 10px;
+  border:solid 1px #565b60;
+  min-width: 100px;
+  min-height: 20px;
+}
+div .userId {
+  min-width: 20px;
+}
+.Pagination {
+  padding-top: 10px;
+  text-align: right;
+  margin-right: 20px;
+}
+.PaginationActive {
+  font-weight: bold;
+  background-color: #565b60
+}
+.Pagination div {
+  display: inline-block;
+  padding: 2px 5px;
+  border: solid 1px gray;
+  margin: 1px;
+  text-align: center;
+  cursor:pointer;
+}
+.Pagination :hover {
+  background-color: #565b60;
+}
+.prevBtn {
+  border-radius: 7px 0px 0px 7px;
+  width: 70px;
+}
+
+.nextBtn {
+  border-radius: 0px 7px 7px 0px;
+  width: 70px;
 }
