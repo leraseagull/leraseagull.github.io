@@ -1,1 +1,1 @@
-https://leraseagull.github.io/react-test-itrex/
+https://leraseagull.github.io/react-test-itrex.html
